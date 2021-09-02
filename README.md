@@ -8,7 +8,8 @@
 
 ```bash
 
-An sample User Interface design with a modern  and dark mode implementation.
+The app randomly generates a string of 8 letters.
+The user enters a word that contains at least three of these randomly generated letters.
 
 ```
 ## Technologies Used
