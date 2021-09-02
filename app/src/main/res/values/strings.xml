@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Boggle Solitaire</string>
+    <string name="enter_a_word_containing_at_least_three_of_the_letters_above">Enter a word containing at least three of the letters above!</string>
+    <string name="boggle_solitaire">Boggle Solitaire</string>
+    <string name="no_string_loaded_yet">No String Loaded Yet</string>
+    <string name="enter_word_here">Enter Word Here</string>
+    <string name="submit_word">Submit Word</string>
+    <string name="view_score">View Score</string>
+</resources>

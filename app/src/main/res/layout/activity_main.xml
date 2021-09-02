@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boggle_solitaire"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:id="@+id/scoreTitleTextView"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_string_loaded_yet"
+        android:id="@+id/randomStringTextView"
+        android:layout_below="@+id/scoreTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEditText"
+        android:layout_marginBottom="38dp"
+        android:textSize="28sp"
+        android:hint="@string/enter_word_here"
+        android:textAlignment="center"
+        android:layout_above="@+id/submitButton"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/enter_a_word_containing_at_least_three_of_the_letters_above"
+        android:id="@+id/textView"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submitScoreButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:background="@color/teal_200"
+        android:text="@string/submit_word"
+        android:textColor="#546E7A"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_score"
+        android:id="@+id/submitScoreButton"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
